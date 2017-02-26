@@ -1,0 +1,66 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It was much easier to locate the bug. Normally I would
+    have to go through the entire 1000+ lines of code to 
+    notice the 'typo' but with diff, I was able to do it by
+    looking at only a few lines of code. This I feel would 
+    become very handy when making changes to a file and comparing to an old version in order to spot errors.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    If the entire history of a file is available, then next time,
+    if I'm making any changes and it results in errors, 
+    I could simply revert back to the old version. Also 
+    if a particular change is not well received by clients
+    then I can revert to a previous version and present 
+    that to a client or even work on that previous version
+    to make a different version which could have more appeal
+    to a certain segment of the audience.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: 
+      1. Commit a file only when it is logical to do so.
+      There is no point in commiting a file which doesn't even compile.
+      2. Commits can be big or small, rather than a constant size and this could be a good way to roll back changes.
+      All of the changes will be logical and perhaps feature dependent.
+    Cons: 
+      1. One can code too much without committing, making it impossible to revert small changes automatically.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    In the world of programming, sometimes to make a change
+    to one small feature, multiple files need to be changed. 
+    Git allows for the tracking of multiple files at once in
+    order to better support this requirement of programmers.
+    An example would be a simple JAVA CRUD app where changing one
+    feautre might invlove making changes in  both the main class file
+    and the controller class file.
+    Programs like google docs treat each file seperately is because
+    in the program each file is self contained, and changes
+    in one file does not correspond to changes in other files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log shows each all of the previous commits in reverse
+    chronological order along with the commit messges and a timestamp.
+    git diff shows the difference between two versions of a file.
+    It takes in two arguments - the old version (previous commimt id)
+    and new version (next commit id)
+    With these two commands, I can search through to find the
+    commit where a certain change was made and examine it
+    to find out the exact details of the change.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    If my project is regularly commited then having access to the previous versions mean that I can play around with the code and make changes which have the potential of introducing bugs. With the help of version control I can easily go back to a previous version and therefore even if I mess up, the risk is not all that great. Also, if I accidently delete an important line, with the help fo git log and git diff, I'll be able to quickly find it and fix it. Thus my appetite for risk with my program will increase significantly. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use git to modify and update the two Java Projects that I had been working on. First I will use it for the CRUD app (bookstore) and secondly I will use it for my CGPA Calculator app. With these two, I should get my Java skills up as well as become comfortable with Git and Github so that I can use the Version Control System for Source Code Management for all of my projects, especially the web ones.
