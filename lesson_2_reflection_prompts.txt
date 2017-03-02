@@ -30,8 +30,16 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+  The git commit history is non-linear. By drawing diagrams
+  we can visualize the branch structure and this can help us
+  stay on track and prevent ourselves from losing commits, and
+  us getting lost in the world of multiple branches and commits.
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-
+  
+  The result of merging two branches together is that it gives us the opportunity to independently develop features
+  and then add them together. When two brances are merged together then all commits in both branches are added to the merged branch. We represent it this way in the diagram in order to help us visualize the changes and keep track of what is actually going on.
+  
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
