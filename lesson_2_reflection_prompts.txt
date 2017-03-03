@@ -40,6 +40,15 @@ the diagram the way we do?
   
   The result of merging two branches together is that it gives us the opportunity to independently develop features
   and then add them together. When two brances are merged together then all commits in both branches are added to the merged branch. We represent it this way in the diagram in order to help us visualize the changes and keep track of what is actually going on.
-  
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+  The pros of automatic merging is that we do not have to go through the entire file and see if everything is all right
+  Git takes care of that for us. However, in the event of a merge
+  conflict, automatic merging will not be able to figure out 
+  what changes to keep and which changes to discard. Thus we have to take over the wheels and handle it ourselves. Git 
+  saves us time merging things automatically when it can but hands
+  the reins back to us when our intervention is required. 
+  One con of automatic merging is that it commits are ordered according to timestamp and this makes it harder to 
+  view differences in two commits at once.
