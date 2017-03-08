@@ -26,7 +26,8 @@ docs does?
     Pros: 
       1. Commit a file only when it is logical to do so.
       There is no point in commiting a file which doesn't even compile.
-      2. Commits can be big or small, rather than a constant size and this could be a good way to roll back changes.
+      2. Commits can be big or small, rather than a constant size and this could
+      be a good way to roll back changes.
       All of the changes will be logical and perhaps feature dependent.
     Cons: 
       1. One can code too much without committing, making it impossible to revert small changes automatically.
