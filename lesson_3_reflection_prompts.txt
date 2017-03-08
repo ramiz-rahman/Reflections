@@ -42,7 +42,10 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    If the last known state of the remote is stored locally, then we 
+    can compate our work with the state of origin master and use
+    commands such as git diff. This allows us to manually merge our 
+    local file to the local copy of the origin and push the changes.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
